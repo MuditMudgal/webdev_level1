@@ -12,3 +12,34 @@
     <h1>Centered_H1</h1>
 </body>
 </html>
+
+//-------------------------------------------------------------CSS---------------------------------------------------------------------------
+
+@font-face {
+    font-family: monument ;
+    src: url(./MonumentExtended-Regular.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+h1{
+    color: white;
+    background: black;
+    padding: 50px;
+    font-size: 50px ;
+    font-family: monument;
+    font-weight: 1000px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
